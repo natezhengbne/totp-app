@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# macOS
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+ios/build/
+android/build/
+*.keystore
+*.jks
+
+# Metro bundler cache
+metro-cache/
+tmp/
+
+# Misc
+*.lock
+*.log
+*.bak
+
+# VSCode
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
