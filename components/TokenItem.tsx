@@ -4,7 +4,9 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function TokenItem({ account, token }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{account}: {token}</Text>
+      <Text style={styles.text}>
+        {account}: {token}
+      </Text>
     </View>
   );
 }
